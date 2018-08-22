@@ -1,0 +1,9 @@
+{
+  "name": "music-visualiser",
+  "version": "1.0.0",
+  "description": "0sum Audio Visualiser",
+  "main": "index.js",
+  "repository": "https://github.com/0sumrich/music-visualiser.git",
+  "author": "Richard Lynch",
+  "license": "MIT"
+}
