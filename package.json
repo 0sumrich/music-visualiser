@@ -1,9 +1,22 @@
 {
-  "name": "music-visualiser",
-  "version": "1.0.0",
-  "description": "0sum Audio Visualiser",
-  "main": "index.js",
-  "repository": "https://github.com/0sumrich/music-visualiser.git",
-  "author": "Richard Lynch",
-  "license": "MIT"
+	"name": "music-visualiser",
+	"version": "1.0.0",
+	"description": "0sum Audio Visualiser",
+	"main": "index.js",
+	"repository": "https://github.com/0sumrich/music-visualiser.git",
+	"author": "Richard Lynch",
+	"license": "MIT",
+	"scripts": {
+		"dev": "webpack-dev-server --open --config webpack.dev.js",
+		"build": "webpack --config webpack.prod.js"
+	},
+	"devDependencies": {
+		"webpack-cli": "^3.2.3",
+		"webpack-dev-server": "^3.1.14",
+		"webpack-merge": "^4.2.1"
+	},
+	"dependencies": {
+		"d3": "^5.9.1",
+		"webpack": "^4.29.5"
+	}
 }
